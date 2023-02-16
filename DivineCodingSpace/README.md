@@ -1,3 +1,3 @@
 <Strong>The Pareyandavar</Strong>
 
-<a href ="https://kaviarasu1.github.io/SalemCovidDetails.html" targe=_self> Click here! </a>
+<a href ="https://pareyandavar.github.io/DivineCodingSpace/homepage.html" targe=_self> Click here! </a>
