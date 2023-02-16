@@ -1,4 +1,4 @@
-### Hi there 👋 It is a divine code space which is simple and intutive to the pareyan kula descentants.
+### Hi there 👋 <a href ="https://pareyandavar.github.io/Homepage.html" targe=_self> Click here! </a>.
 
 <!--
 **pareyandavar/Pareyandavar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
