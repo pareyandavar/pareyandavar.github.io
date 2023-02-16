@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>ஸ்ரீ பெரியாண்டவர் திருக்கோவில்</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+    
+  <div id="htabs" class="topnav">
+    <a href="#"><img src="logo.png"  style="width:25px;height:25px fit-content"> ஸ்ரீ பெரியாண்டவர் திருக்கோவில்🛕</a>
+    <a href="Homepage.html">Home🛕</a>
+
+  </div>
+
+
+      <div>
+        <h4>About descentants:</h4>
+        <p>Our ancistors started worshipping pareyandavar since 15 or 16 th century and it might be much before that too. But 
+            as per our solid records our ancistors started worshipping pareyandavar since 15 or 16 th century with just handfull number of 24 mtc vammayar people.
+            And today we all know that our root got well established to 100 families which is roughly around 500 to 800 people. 
+        </p>
+        <h4>About Temple</h4>
+        <p> Like every other god , our god is known for atmost cleaniness, ritual practises. Our temple consists of kaval theivam, vinayagar, muruguan, siva, raghu, kedhu, center of attraction is pareyandavar.
+        Please find the list of items below for the poojai and please feel free to add any items here in the list.
+        </p>  
+    <div>
+          
+          
+<div>
+    <h4 style="margin:5px">Pareyandavar Favourites</h4>
+</div>
+ <p>
+
+  
+  <ul>
+  <li>1. Saree </li><br><br>
+  <li>2. Turmeric   </li><br><br>
+  <li>3. Kungumam  </li><br><br>
+  <li>4. Kadhambapodi                                      </li> <br><br>
+  <li>5. Thirneer                                             </li><br><br>
+  <li>6. bangles                                              </li><br><br>
+  <li>7. flowers                                              </li><br><br>
+  <li>8. Garland                                              </li><br><br>
+  <li>9. Nalla ennai                                          </li><br><br>
+  <li>10. Pacha arisi                                         </li><br><br>
+  <li>11. Vellam                                              </li><br><br>
+  <li>12. Ghee                                                </li><br><br>
+  <li>13. Banana leaf                                         </li><br><br>
+  <li>14. Mann velakku                                        </li><br><br>
+  <li>15. Kalpooram                                           </li><br><br>
+  <li>16. Vaeshtti - Munvudayan, raghu kedhu, 2 nos xxl size -</li><br><br>
+  <li>17. Sami white thaval for vinayagar, murugan, siva 3 nos</li><br><br>
+  </ul>
+</p>
+
+
+
+
+
+
+
+  <script>
+  // Create a "close" button and append it to each list item
+  var myNodelist = document.getElementsByTagName("LI");
+  var i;
+  for (i = 0; i < myNodelist.length; i++) {
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    myNodelist[i].appendChild(span);
+  }
+  
+  // Click on a close button to hide the current list item
+  var close = document.getElementsByClassName("close");
+  var i;
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+  
+  // Add a "checked" symbol when clicking on a list item
+  var list = document.querySelector('ul');
+  list.addEventListener('click', function(ev) {
+    if (ev.target.tagName === 'LI') {
+      ev.target.classList.toggle('checked');
+    }
+  }, false);
+  
+  // Create a new list item when clicking on the "Add" button
+  function newElement() {
+    var li = document.createElement("li");
+    var inputValue = document.getElementById("myInput").value;
+    var t = document.createTextNode(inputValue);
+    li.appendChild(t);
+    if (inputValue === '') {
+      alert("You must write something!");
+    } else {
+      document.getElementById("myUL").appendChild(li);
+    }
+    document.getElementById("myInput").value = "";
+  
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    li.appendChild(span);
+  
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+  }
+  </script>
+
+
+    </div>
+
+
+    
+
+
+  <div class="footer">
+    <p> Take Care! &#127793; <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></p>
+    <p>Thank you for visiting the page! </p>
+    <p>This site is dedicated to our god Pareyandavar and to all pareyan vammayar kula descent. </p>
+    <p>copyright 2023-Pareyandavar && Site Last updated 15-2-2023 &#9200;</p>
+
+
+
+
+
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("fa-thumbs-down");
+      }
+    </script>
+  
+    <!-- hitwebcounter Code START -->
+<a href="#" target="_blank">
+  <img src="https://hitwebcounter.com/counter/counter.php?page=8290445&style=0030&nbdigits=4&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>          
+
+
+
+
+  </div>
+
+
+</body>
+</html>
