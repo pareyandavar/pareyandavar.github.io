@@ -10,9 +10,10 @@
     animation: blinker 1.5s linear infinite;
     color: rgba(146, 23, 23, 0.993);
     font-weight: bold;
-    font-family: sans-serif;
     background-color: rgb(226, 226, 117) ;
     display: flexbox;
+    height: auto;
+    width: auto;
 }
 @keyframes blinker {
     50% {
@@ -42,7 +43,6 @@
     overflow: hidden;
     background-color: rgba(146, 23, 23, 0.993);
     display: block;
-
     scroll-behavior: smooth;
   }
 
