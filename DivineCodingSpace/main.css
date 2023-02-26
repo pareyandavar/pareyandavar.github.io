@@ -147,9 +147,8 @@
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1300px;
-    max-height: 700px;
-    position: relative;
+    width: 100%;
+    position: auto;
     margin: auto;
   }
 
