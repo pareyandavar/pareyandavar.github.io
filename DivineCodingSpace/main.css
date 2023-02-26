@@ -12,6 +12,7 @@
     font-weight: bold;
     font-family: sans-serif;
     background-color: rgb(226, 226, 117) ;
+    display: flexbox;
 }
 @keyframes blinker {
     50% {
