@@ -8,8 +8,10 @@
   }
   .blink {
     animation: blinker 1.5s linear infinite;
-    color: orange;
+    color: rgba(146, 23, 23, 0.993);
+    font-weight: bold;
     font-family: sans-serif;
+    background-color: rgb(226, 226, 117) ;
 }
 @keyframes blinker {
     50% {
