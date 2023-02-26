@@ -6,6 +6,16 @@
     margin: 0;
 
   }
+  .blink {
+    animation: blinker 1.5s linear infinite;
+    color: orange;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
 /* Style the header */
 .header {
     /**background-color: rgba(255, 255, 0, 0.888);**/
@@ -29,6 +39,7 @@
     overflow: hidden;
     background-color: rgba(146, 23, 23, 0.993);
     display: block;
+
     scroll-behavior: smooth;
   }
 
