@@ -10,7 +10,6 @@
 .header {
     /**background-color: rgba(255, 255, 0, 0.888);**/
     background-image: url(headerbackgrnd1.png);
-    position: sticky;
     top: 0;
     padding: 0px;
     text-align: center;
@@ -31,7 +30,6 @@
     background-color: rgba(146, 23, 23, 0.993);
     display: block;
     scroll-behavior: smooth;
-    position: -webkit-sticky;
   }
 
   /* Style the topnav links */
@@ -67,8 +65,7 @@
   @media only screen and (max-width: 620px) {
     .topnav, .header, .column.middle {
       width: 100%;
-      position: -webkit-sticky;
-      top: 200px;
+     
     }
   }
 
